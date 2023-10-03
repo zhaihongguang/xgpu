@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Update package list and install necessary packages
-apt update
-apt -y install ocl-icd-opencl-dev
-apt -y install nano
-apt -y install htop
-apt -y install nvtop
-apt -y install cmake
-apt -y install python3-pip
+sudo apt update
+sudo apt -y install ocl-icd-opencl-dev
+sudo apt -y install nano
+sudo apt -y install htop
+sudo apt -y install nvtop
+sudo apt -y install cmake
+sudo apt install python3-pip
 
 # Clone the repository and build the project
 git clone https://github.com/shanhaicoder/XENGPUMiner.git
